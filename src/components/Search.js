@@ -13,7 +13,7 @@ export default function Search() {
     function updateSearch({target}){
         // just using for readability
         const searchTerm = target.value
-        // used for updating the value in the search input, so it always equals exactly what is saved in state
+        // used for updating the value in the search input, so it always equals exactly what is saved
         setSearch(searchTerm)
         // filters the employees based on first and last name
         const filterResult = employees.filter(function(employee){
