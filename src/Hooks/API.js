@@ -33,7 +33,7 @@ export function useGet(url){
                 sortByAge()
                 break
             case "Lname":
-                sortByLastName()
+                sortByLastNae()
                 break
             default:
                 console.log("sort does not match any cases")
